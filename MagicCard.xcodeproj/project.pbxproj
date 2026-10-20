@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000065 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000064 /* Card.swift */; };
+		000000000000000000000067 /* MagicCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000066 /* MagicCardApp.swift */; };
+		000000000000000000000069 /* PerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000068 /* PerformanceView.swift */; };
+		00000000000000000000006B /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006A /* PhotoStore.swift */; };
+		00000000000000000000006D /* Resources/Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006C /* Resources/Background.png */; };
+		00000000000000000000006F /* Resources/Wombat-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006E /* Resources/Wombat-LICENSE.txt */; };
+		000000000000000000000071 /* Resources/dawang.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000070 /* Resources/dawang.png */; };
+		000000000000000000000073 /* Resources/fangpian_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000072 /* Resources/fangpian_10.png */; };
+		000000000000000000000075 /* Resources/fangpian_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000074 /* Resources/fangpian_2.png */; };
+		000000000000000000000077 /* Resources/fangpian_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000076 /* Resources/fangpian_3.png */; };
+		000000000000000000000079 /* Resources/fangpian_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000078 /* Resources/fangpian_4.png */; };
+		00000000000000000000007B /* Resources/fangpian_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000007A /* Resources/fangpian_5.png */; };
+		00000000000000000000007D /* Resources/fangpian_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000007C /* Resources/fangpian_6.png */; };
+		00000000000000000000007F /* Resources/fangpian_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000007E /* Resources/fangpian_7.png */; };
+		000000000000000000000081 /* Resources/fangpian_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000080 /* Resources/fangpian_8.png */; };
+		000000000000000000000083 /* Resources/fangpian_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000082 /* Resources/fangpian_9.png */; };
+		000000000000000000000085 /* Resources/fangpian_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000084 /* Resources/fangpian_A.png */; };
+		000000000000000000000087 /* Resources/fangpian_J.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000086 /* Resources/fangpian_J.png */; };
+		000000000000000000000089 /* Resources/fangpian_K.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000088 /* Resources/fangpian_K.png */; };
+		00000000000000000000008B /* Resources/fangpian_Q.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000008A /* Resources/fangpian_Q.png */; };
+		00000000000000000000008D /* Resources/heitao_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000008C /* Resources/heitao_10.png */; };
+		00000000000000000000008F /* Resources/heitao_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000008E /* Resources/heitao_2.png */; };
+		000000000000000000000091 /* Resources/heitao_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000090 /* Resources/heitao_3.png */; };
+		000000000000000000000093 /* Resources/heitao_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000092 /* Resources/heitao_4.png */; };
+		000000000000000000000095 /* Resources/heitao_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000094 /* Resources/heitao_5.png */; };
+		000000000000000000000097 /* Resources/heitao_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000096 /* Resources/heitao_6.png */; };
+		000000000000000000000099 /* Resources/heitao_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000098 /* Resources/heitao_7.png */; };
+		00000000000000000000009B /* Resources/heitao_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009A /* Resources/heitao_8.png */; };
+		00000000000000000000009D /* Resources/heitao_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009C /* Resources/heitao_9.png */; };
+		00000000000000000000009F /* Resources/heitao_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000009E /* Resources/heitao_A.png */; };
+		0000000000000000000000A1 /* Resources/heitao_J.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A0 /* Resources/heitao_J.png */; };
+		0000000000000000000000A3 /* Resources/heitao_K.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A2 /* Resources/heitao_K.png */; };
+		0000000000000000000000A5 /* Resources/heitao_Q.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A4 /* Resources/heitao_Q.png */; };
+		0000000000000000000000A7 /* Resources/hongtao_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A6 /* Resources/hongtao_10.png */; };
+		0000000000000000000000A9 /* Resources/hongtao_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A8 /* Resources/hongtao_2.png */; };
+		0000000000000000000000AB /* Resources/hongtao_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AA /* Resources/hongtao_3.png */; };
+		0000000000000000000000AD /* Resources/hongtao_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AC /* Resources/hongtao_4.png */; };
+		0000000000000000000000AF /* Resources/hongtao_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AE /* Resources/hongtao_5.png */; };
+		0000000000000000000000B1 /* Resources/hongtao_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B0 /* Resources/hongtao_6.png */; };
+		0000000000000000000000B3 /* Resources/hongtao_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B2 /* Resources/hongtao_7.png */; };
+		0000000000000000000000B5 /* Resources/hongtao_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B4 /* Resources/hongtao_8.png */; };
+		0000000000000000000000B7 /* Resources/hongtao_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B6 /* Resources/hongtao_9.png */; };
+		0000000000000000000000B9 /* Resources/hongtao_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B8 /* Resources/hongtao_A.png */; };
+		0000000000000000000000BB /* Resources/hongtao_J.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000BA /* Resources/hongtao_J.png */; };
+		0000000000000000000000BD /* Resources/hongtao_K.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000BC /* Resources/hongtao_K.png */; };
+		0000000000000000000000BF /* Resources/hongtao_Q.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000BE /* Resources/hongtao_Q.png */; };
+		0000000000000000000000C1 /* Resources/meihua_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C0 /* Resources/meihua_10.png */; };
+		0000000000000000000000C3 /* Resources/meihua_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C2 /* Resources/meihua_2.png */; };
+		0000000000000000000000C5 /* Resources/meihua_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C4 /* Resources/meihua_3.png */; };
+		0000000000000000000000C7 /* Resources/meihua_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C6 /* Resources/meihua_4.png */; };
+		0000000000000000000000C9 /* Resources/meihua_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C8 /* Resources/meihua_5.png */; };
+		0000000000000000000000CB /* Resources/meihua_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000CA /* Resources/meihua_6.png */; };
+		0000000000000000000000CD /* Resources/meihua_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000CC /* Resources/meihua_7.png */; };
+		0000000000000000000000CF /* Resources/meihua_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000CE /* Resources/meihua_8.png */; };
+		0000000000000000000000D1 /* Resources/meihua_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D0 /* Resources/meihua_9.png */; };
+		0000000000000000000000D3 /* Resources/meihua_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D2 /* Resources/meihua_A.png */; };
+		0000000000000000000000D5 /* Resources/meihua_J.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D4 /* Resources/meihua_J.png */; };
+		0000000000000000000000D7 /* Resources/meihua_K.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D6 /* Resources/meihua_K.png */; };
+		0000000000000000000000D9 /* Resources/meihua_Q.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D8 /* Resources/meihua_Q.png */; };
+		0000000000000000000000DB /* Resources/xiaowang.png in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000DA /* Resources/xiaowang.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000006 /* MagicCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MagicCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000064 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		000000000000000000000066 /* MagicCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardApp.swift; sourceTree = "<group>"; };
+		000000000000000000000068 /* PerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceView.swift; sourceTree = "<group>"; };
+		00000000000000000000006A /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
+		00000000000000000000006C /* Resources/Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/Background.png; sourceTree = "<group>"; };
+		00000000000000000000006E /* Resources/Wombat-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Resources/Wombat-LICENSE.txt"; sourceTree = "<group>"; };
+		000000000000000000000070 /* Resources/dawang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/dawang.png; sourceTree = "<group>"; };
+		000000000000000000000072 /* Resources/fangpian_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_10.png; sourceTree = "<group>"; };
+		000000000000000000000074 /* Resources/fangpian_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_2.png; sourceTree = "<group>"; };
+		000000000000000000000076 /* Resources/fangpian_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_3.png; sourceTree = "<group>"; };
+		000000000000000000000078 /* Resources/fangpian_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_4.png; sourceTree = "<group>"; };
+		00000000000000000000007A /* Resources/fangpian_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_5.png; sourceTree = "<group>"; };
+		00000000000000000000007C /* Resources/fangpian_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_6.png; sourceTree = "<group>"; };
+		00000000000000000000007E /* Resources/fangpian_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_7.png; sourceTree = "<group>"; };
+		000000000000000000000080 /* Resources/fangpian_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_8.png; sourceTree = "<group>"; };
+		000000000000000000000082 /* Resources/fangpian_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_9.png; sourceTree = "<group>"; };
+		000000000000000000000084 /* Resources/fangpian_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_A.png; sourceTree = "<group>"; };
+		000000000000000000000086 /* Resources/fangpian_J.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_J.png; sourceTree = "<group>"; };
+		000000000000000000000088 /* Resources/fangpian_K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_K.png; sourceTree = "<group>"; };
+		00000000000000000000008A /* Resources/fangpian_Q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/fangpian_Q.png; sourceTree = "<group>"; };
+		00000000000000000000008C /* Resources/heitao_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_10.png; sourceTree = "<group>"; };
+		00000000000000000000008E /* Resources/heitao_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_2.png; sourceTree = "<group>"; };
+		000000000000000000000090 /* Resources/heitao_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_3.png; sourceTree = "<group>"; };
+		000000000000000000000092 /* Resources/heitao_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_4.png; sourceTree = "<group>"; };
+		000000000000000000000094 /* Resources/heitao_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_5.png; sourceTree = "<group>"; };
+		000000000000000000000096 /* Resources/heitao_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_6.png; sourceTree = "<group>"; };
+		000000000000000000000098 /* Resources/heitao_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_7.png; sourceTree = "<group>"; };
+		00000000000000000000009A /* Resources/heitao_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_8.png; sourceTree = "<group>"; };
+		00000000000000000000009C /* Resources/heitao_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_9.png; sourceTree = "<group>"; };
+		00000000000000000000009E /* Resources/heitao_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_A.png; sourceTree = "<group>"; };
+		0000000000000000000000A0 /* Resources/heitao_J.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_J.png; sourceTree = "<group>"; };
+		0000000000000000000000A2 /* Resources/heitao_K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_K.png; sourceTree = "<group>"; };
+		0000000000000000000000A4 /* Resources/heitao_Q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/heitao_Q.png; sourceTree = "<group>"; };
+		0000000000000000000000A6 /* Resources/hongtao_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_10.png; sourceTree = "<group>"; };
+		0000000000000000000000A8 /* Resources/hongtao_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_2.png; sourceTree = "<group>"; };
+		0000000000000000000000AA /* Resources/hongtao_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_3.png; sourceTree = "<group>"; };
+		0000000000000000000000AC /* Resources/hongtao_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_4.png; sourceTree = "<group>"; };
+		0000000000000000000000AE /* Resources/hongtao_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_5.png; sourceTree = "<group>"; };
+		0000000000000000000000B0 /* Resources/hongtao_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_6.png; sourceTree = "<group>"; };
+		0000000000000000000000B2 /* Resources/hongtao_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_7.png; sourceTree = "<group>"; };
+		0000000000000000000000B4 /* Resources/hongtao_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_8.png; sourceTree = "<group>"; };
+		0000000000000000000000B6 /* Resources/hongtao_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_9.png; sourceTree = "<group>"; };
+		0000000000000000000000B8 /* Resources/hongtao_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_A.png; sourceTree = "<group>"; };
+		0000000000000000000000BA /* Resources/hongtao_J.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_J.png; sourceTree = "<group>"; };
+		0000000000000000000000BC /* Resources/hongtao_K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_K.png; sourceTree = "<group>"; };
+		0000000000000000000000BE /* Resources/hongtao_Q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/hongtao_Q.png; sourceTree = "<group>"; };
+		0000000000000000000000C0 /* Resources/meihua_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_10.png; sourceTree = "<group>"; };
+		0000000000000000000000C2 /* Resources/meihua_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_2.png; sourceTree = "<group>"; };
+		0000000000000000000000C4 /* Resources/meihua_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_3.png; sourceTree = "<group>"; };
+		0000000000000000000000C6 /* Resources/meihua_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_4.png; sourceTree = "<group>"; };
+		0000000000000000000000C8 /* Resources/meihua_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_5.png; sourceTree = "<group>"; };
+		0000000000000000000000CA /* Resources/meihua_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_6.png; sourceTree = "<group>"; };
+		0000000000000000000000CC /* Resources/meihua_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_7.png; sourceTree = "<group>"; };
+		0000000000000000000000CE /* Resources/meihua_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_8.png; sourceTree = "<group>"; };
+		0000000000000000000000D0 /* Resources/meihua_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_9.png; sourceTree = "<group>"; };
+		0000000000000000000000D2 /* Resources/meihua_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_A.png; sourceTree = "<group>"; };
+		0000000000000000000000D4 /* Resources/meihua_J.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_J.png; sourceTree = "<group>"; };
+		0000000000000000000000D6 /* Resources/meihua_K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_K.png; sourceTree = "<group>"; };
+		0000000000000000000000D8 /* Resources/meihua_Q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/meihua_Q.png; sourceTree = "<group>"; };
+		0000000000000000000000DA /* Resources/xiaowang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/xiaowang.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000009 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000002 /* MagicCard */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000002 /* MagicCard */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000064 /* Card.swift */,
+				000000000000000000000066 /* MagicCardApp.swift */,
+				000000000000000000000068 /* PerformanceView.swift */,
+				00000000000000000000006A /* PhotoStore.swift */,
+				00000000000000000000006C /* Resources/Background.png */,
+				00000000000000000000006E /* Resources/Wombat-LICENSE.txt */,
+				000000000000000000000070 /* Resources/dawang.png */,
+				000000000000000000000072 /* Resources/fangpian_10.png */,
+				000000000000000000000074 /* Resources/fangpian_2.png */,
+				000000000000000000000076 /* Resources/fangpian_3.png */,
+				000000000000000000000078 /* Resources/fangpian_4.png */,
+				00000000000000000000007A /* Resources/fangpian_5.png */,
+				00000000000000000000007C /* Resources/fangpian_6.png */,
+				00000000000000000000007E /* Resources/fangpian_7.png */,
+				000000000000000000000080 /* Resources/fangpian_8.png */,
+				000000000000000000000082 /* Resources/fangpian_9.png */,
+				000000000000000000000084 /* Resources/fangpian_A.png */,
+				000000000000000000000086 /* Resources/fangpian_J.png */,
+				000000000000000000000088 /* Resources/fangpian_K.png */,
+				00000000000000000000008A /* Resources/fangpian_Q.png */,
+				00000000000000000000008C /* Resources/heitao_10.png */,
+				00000000000000000000008E /* Resources/heitao_2.png */,
+				000000000000000000000090 /* Resources/heitao_3.png */,
+				000000000000000000000092 /* Resources/heitao_4.png */,
+				000000000000000000000094 /* Resources/heitao_5.png */,
+				000000000000000000000096 /* Resources/heitao_6.png */,
+				000000000000000000000098 /* Resources/heitao_7.png */,
+				00000000000000000000009A /* Resources/heitao_8.png */,
+				00000000000000000000009C /* Resources/heitao_9.png */,
+				00000000000000000000009E /* Resources/heitao_A.png */,
+				0000000000000000000000A0 /* Resources/heitao_J.png */,
+				0000000000000000000000A2 /* Resources/heitao_K.png */,
+				0000000000000000000000A4 /* Resources/heitao_Q.png */,
+				0000000000000000000000A6 /* Resources/hongtao_10.png */,
+				0000000000000000000000A8 /* Resources/hongtao_2.png */,
+				0000000000000000000000AA /* Resources/hongtao_3.png */,
+				0000000000000000000000AC /* Resources/hongtao_4.png */,
+				0000000000000000000000AE /* Resources/hongtao_5.png */,
+				0000000000000000000000B0 /* Resources/hongtao_6.png */,
+				0000000000000000000000B2 /* Resources/hongtao_7.png */,
+				0000000000000000000000B4 /* Resources/hongtao_8.png */,
+				0000000000000000000000B6 /* Resources/hongtao_9.png */,
+				0000000000000000000000B8 /* Resources/hongtao_A.png */,
+				0000000000000000000000BA /* Resources/hongtao_J.png */,
+				0000000000000000000000BC /* Resources/hongtao_K.png */,
+				0000000000000000000000BE /* Resources/hongtao_Q.png */,
+				0000000000000000000000C0 /* Resources/meihua_10.png */,
+				0000000000000000000000C2 /* Resources/meihua_2.png */,
+				0000000000000000000000C4 /* Resources/meihua_3.png */,
+				0000000000000000000000C6 /* Resources/meihua_4.png */,
+				0000000000000000000000C8 /* Resources/meihua_5.png */,
+				0000000000000000000000CA /* Resources/meihua_6.png */,
+				0000000000000000000000CC /* Resources/meihua_7.png */,
+				0000000000000000000000CE /* Resources/meihua_8.png */,
+				0000000000000000000000D0 /* Resources/meihua_9.png */,
+				0000000000000000000000D2 /* Resources/meihua_A.png */,
+				0000000000000000000000D4 /* Resources/meihua_J.png */,
+				0000000000000000000000D6 /* Resources/meihua_K.png */,
+				0000000000000000000000D8 /* Resources/meihua_Q.png */,
+				0000000000000000000000DA /* Resources/xiaowang.png */,
+			);
+			path = MagicCard;
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000006 /* MagicCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000005 /* MagicCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000000B /* Build configuration list for PBXNativeTarget "MagicCard" */;
+			buildPhases = (
+				000000000000000000000007 /* Sources */,
+				000000000000000000000009 /* Frameworks */,
+				000000000000000000000008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicCard;
+			productName = MagicCard;
+			productReference = 000000000000000000000006 /* MagicCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					000000000000000000000005 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000000A /* Build configuration list for PBXProject "MagicCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"zh-Hans",
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000001;
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000005 /* MagicCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00000000000000000000006D /* Resources/Background.png in Resources */,
+				00000000000000000000006F /* Resources/Wombat-LICENSE.txt in Resources */,
+				000000000000000000000071 /* Resources/dawang.png in Resources */,
+				000000000000000000000073 /* Resources/fangpian_10.png in Resources */,
+				000000000000000000000075 /* Resources/fangpian_2.png in Resources */,
+				000000000000000000000077 /* Resources/fangpian_3.png in Resources */,
+				000000000000000000000079 /* Resources/fangpian_4.png in Resources */,
+				00000000000000000000007B /* Resources/fangpian_5.png in Resources */,
+				00000000000000000000007D /* Resources/fangpian_6.png in Resources */,
+				00000000000000000000007F /* Resources/fangpian_7.png in Resources */,
+				000000000000000000000081 /* Resources/fangpian_8.png in Resources */,
+				000000000000000000000083 /* Resources/fangpian_9.png in Resources */,
+				000000000000000000000085 /* Resources/fangpian_A.png in Resources */,
+				000000000000000000000087 /* Resources/fangpian_J.png in Resources */,
+				000000000000000000000089 /* Resources/fangpian_K.png in Resources */,
+				00000000000000000000008B /* Resources/fangpian_Q.png in Resources */,
+				00000000000000000000008D /* Resources/heitao_10.png in Resources */,
+				00000000000000000000008F /* Resources/heitao_2.png in Resources */,
+				000000000000000000000091 /* Resources/heitao_3.png in Resources */,
+				000000000000000000000093 /* Resources/heitao_4.png in Resources */,
+				000000000000000000000095 /* Resources/heitao_5.png in Resources */,
+				000000000000000000000097 /* Resources/heitao_6.png in Resources */,
+				000000000000000000000099 /* Resources/heitao_7.png in Resources */,
+				00000000000000000000009B /* Resources/heitao_8.png in Resources */,
+				00000000000000000000009D /* Resources/heitao_9.png in Resources */,
+				00000000000000000000009F /* Resources/heitao_A.png in Resources */,
+				0000000000000000000000A1 /* Resources/heitao_J.png in Resources */,
+				0000000000000000000000A3 /* Resources/heitao_K.png in Resources */,
+				0000000000000000000000A5 /* Resources/heitao_Q.png in Resources */,
+				0000000000000000000000A7 /* Resources/hongtao_10.png in Resources */,
+				0000000000000000000000A9 /* Resources/hongtao_2.png in Resources */,
+				0000000000000000000000AB /* Resources/hongtao_3.png in Resources */,
+				0000000000000000000000AD /* Resources/hongtao_4.png in Resources */,
+				0000000000000000000000AF /* Resources/hongtao_5.png in Resources */,
+				0000000000000000000000B1 /* Resources/hongtao_6.png in Resources */,
+				0000000000000000000000B3 /* Resources/hongtao_7.png in Resources */,
+				0000000000000000000000B5 /* Resources/hongtao_8.png in Resources */,
+				0000000000000000000000B7 /* Resources/hongtao_9.png in Resources */,
+				0000000000000000000000B9 /* Resources/hongtao_A.png in Resources */,
+				0000000000000000000000BB /* Resources/hongtao_J.png in Resources */,
+				0000000000000000000000BD /* Resources/hongtao_K.png in Resources */,
+				0000000000000000000000BF /* Resources/hongtao_Q.png in Resources */,
+				0000000000000000000000C1 /* Resources/meihua_10.png in Resources */,
+				0000000000000000000000C3 /* Resources/meihua_2.png in Resources */,
+				0000000000000000000000C5 /* Resources/meihua_3.png in Resources */,
+				0000000000000000000000C7 /* Resources/meihua_4.png in Resources */,
+				0000000000000000000000C9 /* Resources/meihua_5.png in Resources */,
+				0000000000000000000000CB /* Resources/meihua_6.png in Resources */,
+				0000000000000000000000CD /* Resources/meihua_7.png in Resources */,
+				0000000000000000000000CF /* Resources/meihua_8.png in Resources */,
+				0000000000000000000000D1 /* Resources/meihua_9.png in Resources */,
+				0000000000000000000000D3 /* Resources/meihua_A.png in Resources */,
+				0000000000000000000000D5 /* Resources/meihua_J.png in Resources */,
+				0000000000000000000000D7 /* Resources/meihua_K.png in Resources */,
+				0000000000000000000000D9 /* Resources/meihua_Q.png in Resources */,
+				0000000000000000000000DB /* Resources/xiaowang.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000065 /* Card.swift in Sources */,
+				000000000000000000000067 /* MagicCardApp.swift in Sources */,
+				000000000000000000000069 /* PerformanceView.swift in Sources */,
+				00000000000000000000006B /* PhotoStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		000000000000000000000016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MagicCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiccard.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		000000000000000000000017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MagicCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiccard.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000000A /* Build configuration list for PBXProject "MagicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000014 /* Debug */,
+				000000000000000000000015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000000B /* Build configuration list for PBXNativeTarget "MagicCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000016 /* Debug */,
+				000000000000000000000017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000004 /* Project object */;
+}
